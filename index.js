@@ -175,7 +175,7 @@ function restart() {
 themeBtn.addEventListener("click", setTheme)
 
 const themes = [cool, dark, warm]
-let theme = 0
+let theme = 1
 
 
 
