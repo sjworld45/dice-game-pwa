@@ -123,14 +123,19 @@ h1 {
   padding: 15px 25px;
   margin: 10px 0 5px;
   font-weight: bold;
-  transform: translateX(-50%);
+  /* transform: translateX(-50%); */
   width: 200px;
 }
 
-.buttons {
+.info-btns {
+  display: grid;
+  place-items: center;
+}
+
+/* .buttons {
   margin: 0 auto;
   padding-left: 50%;
-}
+} */
 
 .visible {
   display: block;
@@ -142,11 +147,7 @@ h1 {
 
 #resume {
   display: none;
-  transform: translateX(25%);
-}
-
-.info {
-  transform: translateX(0%);
+  /* transform: translateX(25%); */
 }
 
 .get-info {
@@ -180,6 +181,7 @@ li {
   left: 35%;
   margin: 0 auto;
   padding: 10px;
+  place-items: center;
 }
 .theme {
   width: 20px;
@@ -196,5 +198,13 @@ li {
   }
   .game {
     top: 2%;
+  }
+
+  .theme {
+    margin: 5px 0 5px 10px;
+  }
+  .chng-winning-score {
+    left: 15%;
+    width: 60%;
   }
 }
